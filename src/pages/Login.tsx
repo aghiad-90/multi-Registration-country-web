@@ -14,6 +14,7 @@ import Loader from '../core/components/loader/index.tsx'
 const Login = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  console.log(useNavigate());
   const dispatch = useDispatch();
   const [modalOpen, setModalOpen] = React.useState(false);
   const [modalContent, setModalContent] = React.useState("");
@@ -48,7 +49,6 @@ const Login = () => {
 
   useEffect(() => {
     if (error) {
-      console.log("error", error);
       setModalOpen(true);
       setModalContent(error?.error);
     }

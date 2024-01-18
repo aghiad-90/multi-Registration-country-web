@@ -45,7 +45,7 @@ const Registration = () => {
       setModalOpen(true);
       setModalContent(response?.data);
     }
-  }, [response, error]);
+  }, [response]);
 
   return (
     <BasicGrid>
