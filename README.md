@@ -1,6 +1,6 @@
 # Overview
 
-This React Native app is designed to support users from different countries with a seamless multi-language experience. It provides the flexibility to switch between languages, making the app accessible to a diverse user base.
+This web app is designed to support users from different countries with a seamless multi-language experience. It provides the flexibility to switch between languages, making the app accessible to a diverse user base.
 
 # Features
 * Multi-Language Support: The app supports multiple languages, allowing users to choose their preferred language for a personalized experience.
